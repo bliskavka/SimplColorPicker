@@ -5,7 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.thebluealliance.spectrum.SpectrumPalette;
+
+import dev.bliskavka.simplcolorpicker.SimplColorPicker;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         text.setText("Текст в диалоговом окне. Вы любите котов?");
         dialog.show();
 
-        SimplColo
+        SimplColorPicker simplColorPicker = new SimplColorPicker(MainActivity.this);
     }
 
 
